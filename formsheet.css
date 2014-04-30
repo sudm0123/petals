@@ -1,0 +1,39 @@
+form
+{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+select,textarea,input[type="password"],input[type="email"],input[type="text"],input[type="date"]
+{
+	display:block;
+	background-color:#C2E066;
+	border-style:dotted;
+	border-width:2px;
+	border-color:#ffffff;
+}
+input[type="submit"],input[type="reset"]
+{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#FFCC00;
+	text-align:center;
+	padding:5px;
+	border-style:dashed;
+	border-width:2px;
+	border-color:#ffffff;
+}
+input[type="submit"]:hover,input[type="reset"]:hover
+{
+	width:120px;
+	display:block;
+	background-color:#ffffff;
+	color:#99cc00;
+	border-style:dashed;
+	border-width:2px;
+	border-color:#ffcc00;
+}
+input:focus
+{
+	background-color:#ffffff;
+}

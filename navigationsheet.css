@@ -1,0 +1,34 @@
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li
+{
+	margin-top:40px;
+	margin-bottom:10px;
+	float:right;
+}
+.list a:link,.list a:visited
+{
+	border:0px;
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#FFCC00;
+	text-align:center;
+	padding:10px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.list a:hover,.list a:active
+{
+	border-style:dashed;
+	border-width:1px;
+	border-color:#ffcc00;
+	background-color:transparent;
+	color:#7AA300;
+}
